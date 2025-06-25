@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const images = [
-  "/images/photo1.png",
-  "/images/photo2.png",
-  "/images/photo3.png",
+  process.env.PUBLIC_URL +"/images/photo1.png",
+  process.env.PUBLIC_URL +"/images/photo2.png",
+  process.env.PUBLIC_URL +"/images/photo3.png",
 ];
 
 export default function Slideshow() {
